@@ -17,7 +17,7 @@
   margin-top: 50px;
 }
 
-.desktop-image {
+.login-image {
   width: 350px;
   height: 100%;
   border-radius: 20px 0px 0px 20px;
@@ -101,4 +101,28 @@
   padding-top: 20px;
 }
 
+@media screen and (max-width: 700px) {
+  .body {
+    background-repeat: repeat;
+  }
+  .login-image {
+    width: 0;
+    height: 0;
+  }
 
+  .login-section {
+    max-width: 280px;
+    border-radius: 20px;
+  }
+
+  .login-page {
+    flex-direction: column;
+    max-width: 320px;
+  }
+
+  .image-container {
+    width: 0;
+    height: 0;
+    background: transparent;
+  }
+}
