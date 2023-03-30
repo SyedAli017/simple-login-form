@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Login Form</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body class="body">
+    <section class="login-page">
+      <div class="image-container">
+        <img
+          class="login-image"
+          media="(min-width: 700px)"
+          src="Images/login-image.jpg"
+          alt=""
+        />
+      </div>
+      <div class="login-section">
+        <div class="title">Login Form</div>
+        <input type="email" class="credentials" placeholder="Email" />
+        <input type="password" class="credentials" placeholder="Password" />
+
+        <div class="remember-forgot">
+          <div>
+            <input type="checkbox" />
+            <label>Remember Me</label>
+          </div>
+          <a class="forgot-password" href="#">Forgot Password?</a>
+        </div>
+        <button class="buttons" id="submit-btn">Submit</button>
+        <div class="alternate-login">
+          <button class="buttons" id="facebook-login">
+            Login With Facebook
+          </button>
+          <button class="buttons" id="gmail-login">Login With Gmail</button>
+
+          <p class="members-benefit">
+            Get Members Benefit.
+            <a class="sign-up" href="#">Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
